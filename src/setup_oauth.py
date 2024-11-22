@@ -2,7 +2,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.oauth2.credentials import Credentials
 import os
 
-SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+SCOPES = ['https://www.googleapis.com/auth/drive.file']
 CREDENTIALS_PATH = 'credentials/oauth_credentials.json'
 
 def setup_oauth():

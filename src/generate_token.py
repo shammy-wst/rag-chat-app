@@ -11,7 +11,11 @@ if not os.path.exists('credentials'):
     os.makedirs('credentials')
 
 # Les scopes dont nous avons besoin
-SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+SCOPES = [
+    'https://www.googleapis.com/auth/drive',
+    'https://www.googleapis.com/auth/drive.file',
+    'https://www.googleapis.com/auth/drive.metadata.readonly'
+]
 
 def generate_token():
     try:

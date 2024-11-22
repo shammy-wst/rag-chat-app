@@ -3,5 +3,8 @@ __pycache__/
 .env
 credentials/*.json
 credentials/token.pickle
-data/*.pdf
+storage/pdfs/*
+!storage/pdfs/.gitkeep
+storage/chromadb/*
+!storage/chromadb/.gitkeep
 .DS_Store
