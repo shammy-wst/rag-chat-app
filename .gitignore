@@ -2,5 +2,6 @@ venv/
 __pycache__/
 .env
 credentials/*.json
+credentials/token.pickle
 data/*.pdf
 .DS_Store
